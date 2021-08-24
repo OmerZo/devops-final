@@ -8,7 +8,7 @@ canvas {
 }
 </style>
 </head>
-<body onload="startGame()>
+<body onload="startGame()">
 <script>
 
 var myGamePiece;
@@ -58,7 +58,14 @@ function component(width, height, color, x, y, type) {
             ctx.fillStyle = color;
             ctx.fillRect(this.x, this.y, this.width, this.height);
         }
-    }
+    
+        
+        
+        
+        
+        
+        
+        
     this.newPos = function() {
         this.gravitySpeed += this.gravity;
         this.x += this.speedX;
