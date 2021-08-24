@@ -19,7 +19,7 @@ function startGame() {
     myGamePiece = new component(30, 30, "red", 10, 120);
     myGamePiece.gravity = 0.05;
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
-    myGameArea.start()
+    myGameArea.startaa();
 }
 
 var myGameArea = {
@@ -128,7 +128,7 @@ function accelerate(n) {
     myGamePiece.gravity = n;
 }
 </script>
-<h1>Devops Final by Omer</h1>
+<h1>Devops Final by Omer!</h1>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <p>Use the ACCELERATE button to stay in the air</p>
