@@ -128,6 +128,7 @@ function accelerate(n) {
     myGamePiece.gravity = n;
 }
 </script>
+<h1>Devops Final by Omer<h1>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <p>Use the ACCELERATE button to stay in the air</p>
