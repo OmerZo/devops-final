@@ -8,7 +8,7 @@ canvas {
 }
 </style>
 </head>
-<body onload="startGame(">
+<body onload="startGame()>
 <script>
 
 var myGamePiece;
